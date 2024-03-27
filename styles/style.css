@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+#calculator{
+width: 20%;
+/* height: 400px; */
+margin-top: 50px;
+background-color: rgb(34, 32, 32);
+}
+
+#output{
+    background-color: gray ;
+    display: flex;
+    flex-direction: c;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
